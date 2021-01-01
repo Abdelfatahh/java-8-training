@@ -1,0 +1,29 @@
+
+public class AddSubComp {
+
+	public static void main(String[] args)
+	{
+		
+		Complex C1 = new Complex(3,2);
+		
+		C1.printComplexNumber();
+		
+		Complex C2 = new Complex(5,6);
+		
+		C2.printComplexNumber();
+		
+		Complex C3 = new Complex();
+		C3 = C3.addComp(C1, C2);
+		System.out.print("Sum of ");
+		C3.printComplexNumber();
+		
+		Complex C4 = new Complex();
+		
+		C4 = C4.subComp(C1, C2);
+		
+		System.out.print("Sub of ");
+		C4.printComplexNumber();
+		
+		
+	}
+}
